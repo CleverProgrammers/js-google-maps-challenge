@@ -4,6 +4,7 @@
         <title>EPIC STORE LOCATOR</title>
         <link rel="stylesheet" href="style/style.css">
         <script src="https://kit.fontawesome.com/c939d0e917.js"></script>
+        <script src="js/store-data.js"></script>
     </head>
     <body>
         <div class="title">Store Locator</div>
@@ -16,28 +17,23 @@
         <div class="stores-list-container">
             <div class="stores-list">
                 <div class="store-container">
-                    <div class="store-address">
-                        8480 Beverly Blvd
-                        Los Angeles, CA 90048
+                    <div class="store-info-container">
+                        <div class="store-address">
+                            <span>8480 Beverly Blvd</span>
+                            <span>Los Angeles, CA 90048</span>
+                        </div>
+                        <div class="store-phone-number">356-345-4654</div>
                     </div>
-                    <div class="store-phone-number">356-345-4654</div>
+                    <div class="store-number-container">
+                        <div class="store-number">
+                            1
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
         <div id="map"></div>
-        <script>
-            var map;
-            function initMap() {
-                var losAngeles = {
-                    lat: 34.063380,
-                    lng: -118.358080
-                }
-                map = new google.maps.Map(document.getElementById('map'), {
-                    center: losAngeles,
-                    zoom: 8
-                });
-            }
-        </script>
+        <script src="js/index.js"></script>
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBh15L6ZQVrZVsMjwAhb_3-X6bbgpSGtQk&callback=initMap"
         async defer></script>
     </body>
