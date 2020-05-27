@@ -1,4 +1,4 @@
-## Google Maps API Key
+## API Key
 
 AIzaSyBh15L6ZQVrZVsMjwAhb_3-X6bbgpSGtQk
 
