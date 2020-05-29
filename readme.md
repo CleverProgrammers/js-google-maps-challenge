@@ -1,9 +1,4 @@
-## API Key
-
-AIzaSyBh15L6ZQVrZVsMjwAhb_3-X6bbgpSGtQk
-
-**WARNING**
-DO NOT SHARE IT WITH ANYONE
+## GOOGLE MAPS APP
 
 ## FontAwesome Link
 
